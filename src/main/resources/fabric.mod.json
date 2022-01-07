@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "unobtainables",
+  "version": "${version}",
+  "name": "Unobtainables",
+  "description": "Add unobtainable blocks to the creative menu",
+  "authors": [
+    "Richie Bendall"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Richienb/unobtainables#readme",
+    "issues": "https://github.com/Richienb/unobtainables/issues",
+    "sources": "https://github.com/Richienb/unobtainables"
+  },
+  "license": "MIT",
+  "icon": "assets/unobtainables/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "com.richienb.unobtainables.Unobtainables"
+      }
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "fabric-language-kotlin": ">=1.7.1+kotlin.1.6.10",
+    "minecraft": ">=1.16",
+    "java": ">=17"
+  }
+}

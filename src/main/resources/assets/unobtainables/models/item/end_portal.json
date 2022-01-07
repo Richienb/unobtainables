@@ -1,0 +1,6 @@
+{
+  "parent": "unobtainables:item/end",
+  "textures": {
+    "layer0": "unobtainables:item/end_portal"
+  }
+}
